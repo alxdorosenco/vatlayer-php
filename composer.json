@@ -1,0 +1,42 @@
+{
+  "name": "alxdorosenco/vatlayer-php",
+  "description": "This PHP package helps working with VatLayer service",
+  "keywords": [
+    "php",
+    "php-vat",
+    "php-vatlayer",
+    "vatlayer-php",
+    "vatlayer",
+    "vat",
+    "instant-vat-number",
+    "EU",
+    "rates",
+    "country"
+  ],
+  "homepage": "https://github.com/alxdorosenco/vatlayer-php",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Alexei Dorosenco",
+      "email": "alexforever1808@gmail.com"
+    }
+  ],
+  "require": {
+    "php": "^7.1|^8.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.0|^10.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "AlxDorosenco\\VatlayerPhp\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "AlxDorosenco\\VatlayerPhp\\Tests\\": "tests/"
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true
+}
